@@ -29,7 +29,6 @@ public class Users {
 	
 	
 	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-//	 @JoinColumn(name = "username", referencedColumnName = "username")
 	private List<data> dataa = new ArrayList<>();
 	
 
